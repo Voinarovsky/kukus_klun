@@ -13,10 +13,14 @@
 - [g] первую позицию вхождения первой строки во вторую (или -1, если их нет)
 """
 
-s1 = input()
-s2 = input()
+s1 = (input())
+s2 = (input())
 print(len(s1)*len(s2))
 print(s1,' ',s2)
+print(f"Hello, {s1}! Just wanted to say: {s2}")
+print(s1.split()[:1],(s2.split()[:1]))
+print(len(s1.split()))
 
-
+str = (s2)
+print(str.find(s1))
 # Место для вашего кода
