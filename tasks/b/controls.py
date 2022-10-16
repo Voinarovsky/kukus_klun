@@ -19,5 +19,26 @@ y = get_integer()
 s = get_string()
 
 print(x, y, s)
+if(x>y):
+    print(x-y-1)
+elif(x==y):
+    print(0)
+else:
+    print(y-x-1)
 
+k=0
+while x!=1:
+    if x%2==0:
+        x=x/2
+    else:
+        x=3*x+1
+    k=k+1
+print(k)
+
+k=0
+gl=set('aeiouy')
+for letter in gl:
+    if letter in gl:
+        k=k+1
+print(k)
 # Место для вашего кода

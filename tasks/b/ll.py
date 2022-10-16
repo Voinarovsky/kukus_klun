@@ -20,17 +20,18 @@
 
 from test.common.context import get_integer
 
+a = []
 n = get_integer()
-a = [int(i) for i in range(0, n)] * n
-b = get_integer()
-a.append(b)
+for i in range(0,n+1):
+    b = get_integer()
+    a.append(b)
 print(a)
-print(len(a))
 # Место для вашего кода (заполнение массива)
 
 print(a)
 print(n)
 print(len(a))
 print(a[0], a[n//2], a[n-1])
+
 
 # Место для вашего кода
