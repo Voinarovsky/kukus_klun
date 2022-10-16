@@ -42,4 +42,5 @@ for letter in gl:
         k=k+1
 print(k)
 
+
 # Место для вашего кода
