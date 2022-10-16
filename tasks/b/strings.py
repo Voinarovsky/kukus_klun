@@ -23,5 +23,4 @@ print(len(s1.split()))
 
 str = (s2)
 print(str.find(s1))
-
 # Место для вашего кода

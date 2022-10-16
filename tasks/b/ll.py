@@ -61,5 +61,4 @@ while i!=(n-1):
         g==g.append(a[i])
     i=i+1
 print(g)
-
 # Место для вашего кода
