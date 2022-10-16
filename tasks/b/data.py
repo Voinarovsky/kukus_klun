@@ -33,4 +33,5 @@ print(n)
 print(len(a))
 print(a[0], a[n//2], a[n-1])
 
+
 # Место для вашего кода

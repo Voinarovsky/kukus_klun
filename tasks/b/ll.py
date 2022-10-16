@@ -32,6 +32,33 @@ print(a)
 print(n)
 print(len(a))
 print(a[0], a[n//2], a[n-1])
+print(min(a), max(a))
+print(sum(a))
 
+i=0
+d=[]
+while i!=(n-1):
+    if a[i]%2==0:
+        d==d.append(a[i]**2)
+    i=i+1
+print(d)
 
+i=0
+while i!=(n-1):
+    if a[i]==min(a):
+        print(i)
+        break
+    i=i+1
+
+a.reverse()
+print(a)
+a.reverse()
+
+i=0
+g=[]
+while i!=(n-1):
+    if a[i]%2==0:
+        g==g.append(a[i])
+    i=i+1
+print(g)
 # Место для вашего кода

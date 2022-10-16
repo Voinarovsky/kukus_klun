@@ -40,3 +40,4 @@ print(y**z)
 print((3*((x+y)*(y+z)*(x+z)))**3)
 print(str(z)[0:7])
 FLOATS =7
+

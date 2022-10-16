@@ -41,4 +41,5 @@ for letter in gl:
     if letter in gl:
         k=k+1
 print(k)
+
 # Место для вашего кода
